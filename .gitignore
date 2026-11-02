@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.py[cod]
+
+# Resumable-generation intermediates. The final NPZ archive and manifest remain tracked.
+embeddings/vectors/
+embeddings/batch.log
+embeddings/retry_errors.log
+embeddings/embedding_attempts.jsonl
